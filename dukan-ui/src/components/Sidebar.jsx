@@ -17,7 +17,7 @@ export function Sidebar() {
   return (
     <div className="sidebar p-4  h-100vh text-white relative">
       <span className="flex flex-row upcard">
-        <img src="/public/assets/Dukan.png" className="mx-2 my-1" />
+        <img src="/public/assets/Dukan.svg" className="mx-2 my-1" />
         <div className="upper flex flex-col ml-2 ">
           <h1>Nishyan</h1>
           <a href="" className="text-xs text-gray-400 underline">
