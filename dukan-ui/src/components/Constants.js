@@ -43,5 +43,26 @@ export const ordersArray = [
   },
 ];
 
+const paymentsArray = [
+  {
+    status: "Next Payout",
+    amount: "₹2312.23",
+    numberOfOrders: "23 orders",
+    nextPaymentDate: "Today, 4:00 PM",
+  },
+  {
+    status: " Amount Pending",
+    amount: "₹92,312.20", // You can set it to the actual pending amount
+    numberOfOrders: "13 orders",
+  },
+  {
+    status: " Amount Processed",
+    amount: "₹23,92,312.19",
+    numberOfOrders: "",
+  },
+];
+
+export default paymentsArray;
+
 // Example usage:
 console.log(ordersArray);

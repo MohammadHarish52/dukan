@@ -6,7 +6,7 @@ import { ordersArray } from "./Constants";
 
 const Payments = () => {
   return (
-    <div>
+    <div className="absolute payment w-4/5 h-2/5 bg-white">
       <div className="TopSesrch">
         <div className="topArea relative flex items-center justify-between">
           <input
